@@ -5,6 +5,9 @@
 <template>
 <div class="hero">
     <iframe id="refraction" src="https://glsl-topaz.vercel.app/refraction" width="100%" height="500px"></iframe>
+    <a href="https://glsl-topaz.vercel.app/impact"><p>
+        More work
+    </p></a>
 </div>
 </template>
 
@@ -19,6 +22,14 @@
     padding-bottom: 30px;
     background-origin: content-box;
     box-shadow: 0px -60px 30px #F9FAF7;
+}
+
+.hero a {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 100;
+    color: white;
 }
 
 iframe#refraction {

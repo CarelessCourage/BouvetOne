@@ -4,7 +4,9 @@
 
 <template>
 <div class="aw5">
-    <img border="rounded" src="/webGPU.png" alt="">
+    <a href="https://codepen.io/munrocket/pen/qBreZya?editors=1010">
+        <img border="rounded" src="/webGPU.png" alt="">
+    </a>
     <div class="aws5">
         <img border="rounded" src="/performance.png" alt="">
         <img border="rounded" src="/performanceCurve.png" alt="">
@@ -21,7 +23,7 @@
     gap: 25px;
 }
 
-.aw5 img {
+.aw5 a, .aw5 img {
     width: 100%;
     height: 100%;
     object-fit: contain;

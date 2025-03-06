@@ -43,8 +43,8 @@ transition: slide-left
 ---
 
 
-<!-- ./components/Arctitecture.vue -->
-<Arctitecture />
+<!-- ./components/Arctitectur2.vue -->
+<Arctitecture2 />
 
 
 <!-- 24 is the current upper limit for CPU due to exponential heat mangagment and complexity: M2 Ultra, I9 Intel. 
@@ -65,8 +65,8 @@ transition: slide-left
 ---
 
 
-<!-- ./components/Arctitecture2.vue -->
-<Arctitecture2 />
+<!-- ./components/Arctitecture.vue -->
+<Arctitecture />
 
 <!-- 24 is the current upper limit for CPU due to exponential heat mangagment and complexity: M2 Ultra, I9 Intel 
 
