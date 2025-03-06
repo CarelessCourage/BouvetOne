@@ -3,9 +3,9 @@
 </script>
 
 <template>
-<div class="aw">
+<div class="aw2">
     <img border="rounded" src="/arcitecture.png" alt="">
-    <div class="aws">
+    <div class="aws2">
         <div class="lolm">
             <div class="text">
                 <p>- latency</p>
@@ -28,7 +28,7 @@
 </template>
 
 <style>
-.aw {
+.aw2 {
     padding: 25px;
     display: grid;
     grid-template-rows: 1fr auto;
@@ -36,7 +36,7 @@
     gap: 25px;
 }
 
-.aw img {
+.aw2 img {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -44,7 +44,7 @@
     overflow: hidden;
 }
 
-.aws {
+.aws2 {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     justify-content: center;

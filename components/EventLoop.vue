@@ -3,7 +3,7 @@
 </script>
 
 <template>
-<div class="aw">
+<div class="aw3">
     <div class="images">
         <img id="margarete" src="/margareteHammilton.jpg"  />
         <div class="grid2">
@@ -30,7 +30,7 @@
     grid-template-rows: 200px 200px;
 }
 
-.aw {
+.aw3 {
     padding: 25px;
     display: grid;
     grid-template-rows: 1fr auto;
@@ -38,7 +38,7 @@
     gap: 25px;
 }
 
-.aw img {
+.aw3 img {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -46,7 +46,7 @@
     overflow: hidden;
 }
 
-.aws {
+.aws3 {
     display: flex;
     height: 22vh;
     align-items: center;
@@ -54,7 +54,7 @@
     gap: 25px;
 }
 
-.aws a {
+.aws3 a {
     display: inline-block;
     width: max-content;
 }
