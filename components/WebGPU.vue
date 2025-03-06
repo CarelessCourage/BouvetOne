@@ -3,21 +3,17 @@
 </script>
 
 <template>
-<div class="aw">
+<div class="aw5">
     <img border="rounded" src="/webGPU.png" alt="">
-    <div class="aws">
-        <div class="lolm">
-            <img border="rounded" src="/performance.png" alt="">
-        </div>
-        <div class="lolm">
-            <img border="rounded" src="/performanceCurve.png" alt="">
-        </div>
+    <div class="aws5">
+        <img border="rounded" src="/performance.png" alt="">
+        <img border="rounded" src="/performanceCurve.png" alt="">
     </div>
 </div>
 </template>
 
 <style>
-.aw {
+.aw5 {
     padding: 25px;
     display: grid;
     grid-template-rows: 1fr auto;
@@ -25,7 +21,7 @@
     gap: 25px;
 }
 
-.aw img {
+.aw5 img {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -33,13 +29,13 @@
     overflow: hidden;
 }
 
-.aws {
+.aws5 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
     height: 22vh;
-    width: 64vw;
+    width: 55vw;
     gap: 25px;
 }
 
